@@ -1,4 +1,5 @@
 # Block devices
+/dev/block/zram0                                                                  u:object_r:swap_block_device:s0
 /dev/block/platform/msm_sdcc\.1/by-name/Cache                                     u:object_r:cache_block_device:s0
 /dev/block/platform/msm_sdcc\.1/by-name/FOTAKernel                                u:object_r:recovery_block_device:s0
 /dev/block/platform/msm_sdcc\.1/by-name/LTALabel                                  u:object_r:ltalabel_block_device:s0
