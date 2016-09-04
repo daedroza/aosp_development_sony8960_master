@@ -229,3 +229,6 @@ attribute hal_wifi_server;
 attribute hal_wifi_supplicant;
 attribute hal_wifi_supplicant_client;
 attribute hal_wifi_supplicant_server;
+
+# Domain type used for debugfs access by QCOM
+attribute qti_debugfs_domain;
