@@ -151,7 +151,7 @@ endif
 LOCAL_HAL_STATIC_LIBRARIES := libhealthd
 
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
-BOARD_HAL_STATIC_LIBRARIES ?= libhealthd.qcom
+#BOARD_HAL_STATIC_LIBRARIES ?= libhealthd.qcom
 endif
 
 # Symlink /charger to /sbin/healthd
