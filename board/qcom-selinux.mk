@@ -1,2 +1,2 @@
 # Qualcomm sepolicies
-include device/qcom/sepolicy/sepolicy.mk
+#include system/sepolicy/sepolicy.mk
