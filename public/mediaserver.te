@@ -101,7 +101,7 @@ allow mediaserver surfaceflinger_service:service_manager find;
 # for ModDrm/MediaPlayer
 allow mediaserver mediadrmserver_service:service_manager find;
 
-ifelse(target_has_legacy_camera_hal1, `true',
+ifelse(target_has_legacy_camera_hal1, `truea',
   allow mediaserver cameraproxy_service:service_manager find;
   allow mediaserver cameraserver_service:service_manager add;
 ,
