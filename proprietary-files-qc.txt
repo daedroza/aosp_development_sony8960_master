@@ -76,7 +76,6 @@ lib/libmercury.so
 lib/libmmstillomx.so
 
 # Perf
-bin/mpdecision
 lib/libthermalclient.so
 vendor/lib/libqti-perfd-client.so
 
