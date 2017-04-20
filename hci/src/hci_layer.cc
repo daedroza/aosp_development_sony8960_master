@@ -72,7 +72,7 @@ typedef struct {
 static const int BT_HCI_RT_PRIORITY = 1;
 
 // Abort if there is no response to an HCI command.
-static const uint32_t COMMAND_PENDING_TIMEOUT_MS = 2000;
+static const uint32_t COMMAND_PENDING_TIMEOUT_MS = 15000;
 
 // Our interface
 static bool interface_created;
