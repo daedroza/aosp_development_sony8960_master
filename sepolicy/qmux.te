@@ -1,0 +1,7 @@
+type qmux, domain, domain_deprecated;
+type qmux_exec, exec_type, file_type;
+
+init_daemon_domain(qmux)
+
+#============= qmux ==============
+allow qmux radio_device:chr_file rw_file_perms;

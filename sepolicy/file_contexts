@@ -35,6 +35,7 @@
 # Shared Memory Drivers
 /dev/smd3                                                                         u:object_r:hci_attach_dev:s0
 /dev/smd([0-9])+                                                                  u:object_r:smd_device:s0
+/dev/smdcntl10                                                                    u:object_r:radio_device:s0
 /dev/smdcntl([0-9])+                                                              u:object_r:smd_device:s0
 /dev/smem_log                                                                     u:object_r:shared_log_device:s0
 
@@ -45,6 +46,7 @@
 /system/bin/hci_qcomm_init                                                        u:object_r:hci_attach_exec:s0
 /system/bin/macaddrsetup                                                          u:object_r:macaddrsetup_exec:s0
 /system/bin/netmgrd                                                               u:object_r:netmgrd_exec:s0
+/system/bin/qmuxd                                                                 u:object_r:qmux_exec:s0
 /system/bin/rmt_storage                                                           u:object_r:rmt_exec:s0
 /system/bin/thermanager                                                           u:object_r:thermanager_exec:s0
 /system/bin/updatemiscta                                                          u:object_r:updatemiscta_exec:s0
