@@ -1,3 +1,5 @@
 #============= init ==============
 allow init self:capability sys_nice;
 allow init sysfs_vibrator:file getattr;
+allow init tad:unix_stream_socket connectto;
+allow init tad_socket:sock_file write;
