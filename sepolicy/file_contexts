@@ -35,6 +35,9 @@
 /dev/smdcntl([0-9])+                                                              u:object_r:smd_device:s0
 /dev/smem_log                                                                     u:object_r:shared_log_device:s0
 
+# Surfaceflinger
+/sys/devices/virtual/graphics/fb([0-2])+/hpd                                      u:object_r:sysfs_graphics:s0
+
 # System binaries
 /system/bin/hci_qcomm_init                                                        u:object_r:hci_attach_exec:s0
 /system/bin/macaddrsetup                                                          u:object_r:macaddrsetup_exec:s0
