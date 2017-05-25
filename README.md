@@ -1,6 +1,7 @@
 Copyright 2016 - The CyanogenMod Project  
 Copyright 2017 - The LineageOS Project  
 
+
 Sony Xperia Blue-Common
 =======================
 
